@@ -1,0 +1,275 @@
+* { /*resets*/
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/filmes-da-netflix-capa.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/*LOGO*/
+.nav-logo {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container .logo {
+    display: flex;
+    padding-left: 20px;
+}
+/*FORM*/
+.container {
+    background-color: #000;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 450px;
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+    opacity: 0.8;
+    border-radius: 5;
+    margin-bottom: 90px;
+}
+
+.container .box-form {
+    display: block;
+    margin:  80px;
+}
+
+.container .form {
+    display: block;
+    height: 50px;
+    width: 300px;
+    padding: 5px 15px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 5;
+    background: #333;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .box-form h1 {
+    color: #fff;
+    font-family: 'Arial', Times, serif;   
+    margin-bottom: 40px;
+}
+
+.container .box-form .button {
+    height: 50px;
+    width: 300px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5;
+    background: #e50914;
+
+}
+
+.container .box-form .button a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.remember {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.remember-me {
+    color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 3px;
+}
+
+.help a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 38px;
+    color: #b3b3b3;
+}
+
+
+.others-informations {
+    margin-top: 10px;
+}
+
+.fb-login  img  {
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    color: white;
+}
+
+.fb-login  {
+    color: #737373;
+    font-size: 15px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+}
+
+.login-signup{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 35px;
+}
+
+.login-signup .question {
+    color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 3px;
+}
+
+.login-signup .link-white a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 3px;
+    color: #fff;
+}
+
+
+.information{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 35px;
+    width: 298px;
+
+}
+
+.information .info{
+    color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 3px;
+    text-align: left;
+}
+
+
+.information .link-blue a  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+     color: blue;
+}
+
+/*FOOTER*/
+.footer{
+    position: relative;
+
+
+
+    margin-top: 0;
+    background: rgba(0,0,0,.75);
+    width: 100%;
+    height: 270px;
+}
+
+.site-footer {
+    display: flex;
+    padding-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.doubt {
+    display: flex;
+    color: #757575;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.number-phone {
+    display: flex;
+    color: #757575;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/*links-footer */
+
+.links-footer {
+    width: 100%;
+}
+
+.links-footer a{
+    color: #757575;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.links-structural {
+    width: 80%;
+    margin-left: 120px;
+    display: flex;
+}
+
+.link-column-one {
+ 
+    flex-direction: column;
+    margin-right: 140px;
+
+}
+
+.link-column-one :nth-child(1) {
+    padding-bottom: 8px;
+}
+
+.link-column-two {
+  
+    flex-direction: column;
+    margin-right: 140px;
+}
+
+.link-column-two :nth-child(1) {
+    padding-bottom: 8px;
+}
+
+.link-column-three {
+    margin-right: 140px;
+    flex-direction: column;
+    
+}
+
+.link-column-four {
+      flex-direction: column;
+}
+
+.choose {
+    width: 136px;
+    height: 50px;
+    border-radius: 3;
+    margin: 30px 0 0 120px;
+    color: #757575;
+    background-color: #000;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
